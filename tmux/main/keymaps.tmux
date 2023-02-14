@@ -40,9 +40,9 @@ bind -T copy-mode-vi MouseDragEnd1Pane send-keys -X copy-pipe-and-cancel "pbcopy
 bind P paste-buffer
 
 # Resizing pane
-bind -r C-j resize-pane -D 15
-bind -r C-k resize-pane -U 15
-bind -r C-h resize-pane -L 15
-bind -r C-l resize-pane -R 15
+bind -r j resize-pane -D 5
+bind -r k resize-pane -U 5
+bind -r l resize-pane -R 5
+bind -r h resize-pane -L 5
 
 bind -n C-z run-shell "ps -o state= -o comm= -t '#{pane_tty}'"

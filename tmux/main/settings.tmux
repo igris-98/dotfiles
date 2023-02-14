@@ -22,4 +22,12 @@ set -g display-time 4000
 set -g default-terminal "screen-256color"
 
 # Vi mode
-setw -g mode-keys vi
+# setw -g mode-keys vi
+set-window-option -g mode-keys vi
+
+bind-key -T copy-mode-vi 'v' send -X begin-selection # start selecting text with "v"
+bind-key -T copy-mode-vi 'y' send -X copy-selection # copy text with "y"
+
+set -g status-bg default
+set -g @resurrect-capture-pane-contents 'on'
+set -g @continuum-restore 'on'
