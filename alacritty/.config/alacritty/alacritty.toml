@@ -1,0 +1,21 @@
+import = [ "~/.config/alacritty/themes/themes/solarized_osaka.toml"]
+
+[shell]
+program = "/usr/bin/zsh"
+
+[window]
+opacity = 0.9
+padding = { x = 10, y = 10 }
+decorations = "None"
+startup_mode = "Maximized"
+
+[scrolling]
+history = 20000
+
+[font]
+normal = { family = "Hack Nerd Font", style = "Regular" }
+size = 14
+offset = { x = 0 , y = 0 }
+
+[env]
+term = "xterm-256color"
