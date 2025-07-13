@@ -11,10 +11,10 @@ return {
 				null_ls.builtins.formatting.prettier.with({
 					extra_filetypes = { "astro" },
 				}),
-				null_ls.builtins.diagnostics.rubocop,
-				null_ls.builtins.formatting.rubocop,
+				-- null_ls.builtins.diagnostics.rubocop,
+				-- null_ls.builtins.formatting.rubocop,
 				null_ls.builtins.formatting.clang_format,
-				require("none-ls.diagnostics.eslint"),
+				require("none-ls.diagnostics.eslint_d"),
 			},
 		})
 

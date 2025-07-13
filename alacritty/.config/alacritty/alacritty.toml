@@ -1,6 +1,5 @@
-import = [ "~/.config/alacritty/themes/themes/solarized_osaka.toml"]
 
-[shell]
+[terminal.shell]
 program = "/usr/bin/zsh"
 
 [window]
@@ -18,4 +17,9 @@ size = 14
 offset = { x = 0 , y = 0 }
 
 [env]
-term = "xterm-256color"
+term = "screen-256color"
+
+[general]
+import = [ "~/.config/alacritty/themes/themes/solarized_osaka.toml"]
+
+[terminal]

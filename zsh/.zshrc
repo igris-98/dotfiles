@@ -3,7 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export PATH="$HOME/codelldb/extension/adapter:$HOME/nvim-linux64/bin:$HOME/.cargo/bin:$PATH"
+export PATH="/opt/nvim:$HOME/codelldb/extension/adapter:$HOME/.cargo/bin:$PATH"
 # export VI_MODE_SET_CURSOR=true
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
