@@ -99,7 +99,7 @@ vim.keymap.set({ "n", "v" }, "<leader>y", '"+y', { desc = "Copy to the system cl
 vim.keymap.set({ "n", "v" }, "<leader>p", '"+p', { desc = "Yank from the system clipboard" })
 
 vim.keymap.set({ "n", "v" }, "<C-d>", "<C-d>zz", { desc = "Copy to the system clipboard" })
-vim.keymap.set({ "n", "v" }, "<C-d>", "<C-u>zz", { desc = "Yank from the system clipboard" })
+vim.keymap.set({ "n", "v" }, "<C-u>", "<C-u>zz", { desc = "Yank from the system clipboard" })
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
