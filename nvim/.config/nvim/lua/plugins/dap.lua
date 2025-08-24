@@ -50,22 +50,22 @@ return {
 			end
 			vim.keymap.set("n", "<leader>dt", function()
 				dap.toggle_breakpoint()
-			end)
+			end, { desc = "Toggle breakpoint" })
 			vim.keymap.set("n", "<leader>db", function()
 				dap.set_breakpoint()
-			end)
+			end, { desc = "Set breakpoint" })
 			vim.keymap.set("n", "<leader>dc", function()
 				dap.continue()
-			end)
+			end, { desc = "Continue" })
 			vim.keymap.set("n", "<leader>dn", function()
 				dap.step_over()
-			end)
+			end, { desc = "Step over" })
 			vim.keymap.set("n", "<leader>di", function()
 				dap.step_into()
-			end)
+			end, { desc = "Step into" })
 			vim.keymap.set("n", "<leader>do", function()
 				dap.step_out()
-			end)
+			end, { desc = "Step out" })
 		end,
 	},
 }
